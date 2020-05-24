@@ -1,9 +1,10 @@
 import React from 'react';
+import { Title } from './styled';
 
 const Dashboard: React.FC = () => {
   return (
     <>
-      <div>Dashboard</div>
+      <Title>Explore repositórios no Github</Title>
     </>
   );
 };
